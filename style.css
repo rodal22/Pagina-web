@@ -1,0 +1,22 @@
+body{
+    font-family:Arial, sans-serif;
+    background-color:antiquewhite;
+
+}
+h1{
+    color: blue
+}
+@keyframes color-change{
+    0%{
+        color: brown;
+    }
+    50%{
+        color: bisque;
+    }
+    100%{
+        color: chartreuse;
+    }
+}
+h1{
+    animation: color-change 3s infinite;
+}
